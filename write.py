@@ -1,0 +1,6 @@
+f = open("write.txt", "r+")
+# a = f.write("\nHello world")
+# print(a)
+print(f.read())
+f.write("thank you")
+f.close()
